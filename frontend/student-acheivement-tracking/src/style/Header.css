@@ -1,0 +1,132 @@
+/*  
+.header {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  z-index: 1000; 
+}
+
+.header img {
+  height: 40px; 
+}
+.header a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header button {
+  padding: 8px 16px;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px; 
+}
+
+.header button:last-child {
+  margin-right: 0; 
+}
+
+.header button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  padding-top: 60px; 
+} */
+
+
+/* Header.css*/
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  background-color: #333;
+  color: white;
+  z-index: 1000; 
+}
+
+.header img {
+  height: 40px; 
+}
+
+.header a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.header a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.header a {
+  background-color: #333;
+
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; 
+}
+
+.header a:hover {
+  background-color: #f9fbfd;
+  color: black;
+}
+
+body {
+  padding-top: 60px; 
+} 
+
+/* .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color: #333;
+  color: white;
+  z-index: 1000; 
+}
+
+.header img {
+  height: 40px; 
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px; 
+}
+
+.header a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.header a:hover {
+  background-color: #f9fbfd;
+  color: black;
+}
+
+.header a.float-right {
+  margin-left: 200px; 
+} */
